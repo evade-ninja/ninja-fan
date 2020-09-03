@@ -18,6 +18,10 @@ const signal D {false, 950};
 
 signal preamble[] = {B,C,B,C,B,C,B,C,B,C,B,C,B,C,B,C,B,C,B,C,B,C,B,C};
 signal light[] = {A,C,B,D,A,C,A,C,B,D,B,D,A,C,A,C,A,C,B,D,A,C,A,C,A,C,A,C,B,D,B,D,B,D,B,D,B,D,B,D,B,D,A,C,A,C,B,D,B,D,B,D,A,C,A,C,B,D,A,C,B,D,B,D,A,C,B,D,A,C,A,C,B,D,A,C,A,C,A,C,A,C,B,D,B,D,B,D,A,C,B,D,B,D,B,D,B,D,B,D,B,D,B,D,B,D,A,C,A,C,A,C,B,D,A,C,A,C,A,C,A,C,A,C,A,C,A,C,A,C,B,C};
+signal speed0[] = {A,C,B,D,A,C,A,C,B,D,B,D,A,C,A,C,A,C,B,D,A,C,A,C,A,C,A,C,B,D,B,D,B,D,B,D,B,D,B,D,B,D,A,C,A,C,B,D,B,D,B,D,A,C,A,C,B,D,A,C,B,D,B,D,A,C,B,D,A,C,A,C,B,D,A,C,A,C,A,C,A,C,B,D,B,D,B,D,B,D,B,D,B,D,B,D,B,D,B,D,B,D,B,D,A,C,A,C,A,C,A,C,A,C,A,C,A,C,A,C,A,C,A,C,A,C,A,C,B,D,B,C};
+signal speed3[] = {A,C,B,D,A,C,A,C,B,D,B,D,A,C,A,C,A,C,B,D,A,C,A,C,A,C,A,C,B,D,B,D,B,D,B,D,B,D,B,D,B,D,A,C,A,C,B,D,B,D,B,D,A,C,A,C,B,D,A,C,B,D,B,D,A,C,B,D,A,C,A,C,B,D,A,C,A,C,A,C,A,C,B,D,B,D,B,D,B,D,B,D,A,C,B,D,B,D,B,D,B,D,B,D,B,D,A,C,A,C,A,C,A,C,A,C,B,D,A,C,A,C,A,C,A,C,A,C,A,C,B,C};
+signal speed2[] = {A,C,B,D,A,C,A,C,B,D,B,D,A,C,A,C,A,C,B,D,A,C,A,C,A,C,A,C,B,D,B,D,B,D,B,D,B,D,B,D,B,D,A,C,A,C,B,D,B,D,B,D,A,C,A,C,B,D,A,C,B,D,B,D,A,C,B,D,A,C,A,C,B,D,A,C,A,C,A,C,A,C,B,D,B,D,B,D,B,D,B,D,B,D,A,C,B,D,B,D,B,D,B,D,B,D,A,C,A,C,A,C,A,C,A,C,A,C,B,D,A,C,A,C,A,C,A,C,A,C,B,D,C};
+signal speed1[] = {A,C,B,D,A,C,A,C,B,D,B,D,A,C,A,C,A,C,B,D,A,C,A,C,A,C,A,C,B,D,B,D,B,D,B,D,B,D,B,D,B,D,A,C,A,C,B,D,B,D,B,D,A,C,A,C,B,D,A,C,B,D,B,D,A,C,B,D,A,C,A,C,B,D,A,C,A,C,A,C,A,C,B,D,B,D,B,D,B,D,B,D,B,D,B,D,B,D,B,D,B,D,A,C,B,D,A,C,A,C,A,C,A,C,A,C,A,C,A,C,A,C,A,C,A,C,B,D,A,C,B,D};
 
 unsigned long previous = 0;
 const long interval = 10000;
